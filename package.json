@@ -1,0 +1,28 @@
+{
+  "name": "nodecraftsman",
+  "version": "1.0.0",
+  "description": "node intermediate tutorial",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "jasmine": "^3.4.0"
+  },
+  "scripts": {
+    "start": "pm2 start src/server.js --no-autorestart",
+    "test": "jasmine"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Falagan/nodeCraftsman.git"
+  },
+  "keywords": [
+    "node",
+    "tutorial"
+  ],
+  "author": "Eloy Pérez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Falagan/nodeCraftsman/issues"
+  },
+  "homepage": "https://github.com/Falagan/nodeCraftsman#readme"
+}
